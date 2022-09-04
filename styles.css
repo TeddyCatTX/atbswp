@@ -2,6 +2,16 @@
 .item2 { grid-area: main; }
 .item3 { grid-area: footer; }
 
+body {
+    margin:auto;
+    width:95%;
+    padding:25px;
+    background-color:#ebebeb;
+    font-size:14px;
+    font-family:Verdana;
+}
+
+
 .grid-container {
   display: grid;
   grid-template-areas:
