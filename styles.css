@@ -1,31 +1,24 @@
-.item1 { grid-area: header; }
-.item2 { grid-area: main; }
-.item3 { grid-area: footer; }
-
 body {
-    margin:auto;
-    width:80%;
-    padding:25px;
-    background-color:#ebebeb;
-    font-size:14px;
-    font-family:Verdana;
+  margin:auto;
+  width:60%;
+  padding:5px;
+  background-color:#ebebeb;
 }
 
-
-.grid-container {
+.container {
   display: grid;
-  grid-template-areas:
-    'header'
-    'main'
-    'footer';
-  gap: 10px;
-  background-color: #2196F3;
+  grid-template-rows: auto;
+  background-color: #3e2723;
   padding: 10px;
+  border-radius: 10px;    
+  grid-gap: 10px;    
 }
 
-.grid-container > div {
-  background-color: rgba(255, 255, 255, 0.8);
-  text-align: left;
-  padding: 10px;
+.item {
+  background-color: #80cbc4;
+  border: 1px solid #fff;
+  padding: 0px 0px 0px 20px;
   font-size: 20px;
+  text-align: left;
+  line-height: 1.5em;
 }
