@@ -23,8 +23,11 @@ body {
   line-height: 1.5em;
 }
 
-iframe[seamless] {
-  border: none;
+iframe[seamless]{
+  background-color: transparent;
+  border: 0px none transparent;
+  padding: 0px;
+  overflow: hidden;
   width: 100%;
   height: 5em;
   background-color: rgb(216, 192, 192);
